@@ -6,3 +6,7 @@ A .git directory is created, with no commits in it. Git saves metadata here.
 
 It sits between the working directory and the repository. It allows us to make one commit per logical change.
 
+3. How can you use the staging area to make sure you have one commit per logical change?
+
+We can add the changed file(s) to the staging area, and once a logical change is complete, we can commit to the repository.
+
