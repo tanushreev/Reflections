@@ -18,3 +18,13 @@ Then, if we want to fix a bug, or make a change in the real official version, it
 5. How do the diagrams help you visualize the branch structure?
 
 They tell us about the number of branches on our project code, help us see the path each branch follows. They help us see all the commits on our project code, this is especially useful since git log will only display the commits on its path.
+
+6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Any changes made on both the branches are merged into one. The commit in which the merging happens has two parents, since it includes the changes from both of them.
+
+7. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging saves time and effort. 
+But, there are cases where Git can’t resolve a conflict, for e.g. if both branches changed the same part of a file. In such cases manually resolving conflict is more effective.
+
