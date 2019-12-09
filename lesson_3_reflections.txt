@@ -10,3 +10,11 @@ It sits between the working directory and the repository. It allows us to make o
 
 We can add the changed file(s) to the staging area, and once a logical change is complete, we can commit to the repository.
 
+4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+We can create a new branch, if we want to try out a new experimental feature that we’re still not sure will work.
+Then, if we want to fix a bug, or make a change in the real official version, it is easy.
+
+5. How do the diagrams help you visualize the branch structure?
+
+They tell us about the number of branches on our project code, help us see the path each branch follows. They help us see all the commits on our project code, this is especially useful since git log will only display the commits on its path.
