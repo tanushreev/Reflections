@@ -5,3 +5,11 @@ I would want to use a remote repository when I want to share my work with others
 2. Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 Because I might want to go through the changes before pulling them into my local repository. Also, I wouldn’t want the code that I’m working on locally to change unexpectedly.
+
+3. Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forking allows us to make a copy of somebody else’s repository directly on the GitHub servers without pulling down the code to our local machine first. We can use forking when we want to modify an existing repository, and share our modified version on GitHub, while keeping the original version as it is.
+
+Cloning allows us to copy an entire repository from one computer to another. We can use git clone to download a repository from GitHub to our local machine.
+
+Branches are labels for our commits. If we checkout a branch, and then make a commit, the branch label automatically updates to the new commit. We can create a new branch, if we want to try out a new experimental feature that we’re still not sure will work. Then, if we want to fix a bug, or make a change in the real official version, it is easy.
