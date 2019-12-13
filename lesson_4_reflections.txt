@@ -13,3 +13,7 @@ Forking allows us to make a copy of somebody else’s repository directly on the
 Cloning allows us to copy an entire repository from one computer to another. We can use git clone to download a repository from GitHub to our local machine.
 
 Branches are labels for our commits. If we checkout a branch, and then make a commit, the branch label automatically updates to the new commit. We can create a new branch, if we want to try out a new experimental feature that we’re still not sure will work. Then, if we want to fix a bug, or make a change in the real official version, it is easy.
+
+4. What is the benefit of having a copy of the last known state of the remote stored locally?
+
+If we’ve got different changes on each repository, with one change locally and another remote, using git fetch to update the local copy of the remote branch can be nice, so that we can use git log and git diff to see what changes were introduced, both on the local and remote repositories. This way, if we’re going to be offline for a while, for eg. if we’re about to get on a plane, we can update our local copy of the remote branch before we leave, and have access to any updates that have been made to the remote since we last synced up, while we were offline.
